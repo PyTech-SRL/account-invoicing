@@ -11,7 +11,7 @@
                     string="View Payments"
                     class="oe_link"
                     colspan="2"
-                    attrs="{'invisible': [('invoice_payments_widget', '=', [])]}"
+                    invisible="not invoice_payments_widget"
                     groups="account.group_account_invoice"
                 />
             </field>

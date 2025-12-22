@@ -39,7 +39,6 @@ class TestAccountInvoiceViewPayment(TransactionCase):
                 "code": "TESTACC",
                 "account_type": "income",
                 "deprecated": False,
-                "company_id": cls.env.user.company_id.id,
             }
         )
 
